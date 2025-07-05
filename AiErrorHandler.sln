@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiErrorHandler.Core", "AiErrorHandler.Core\AiErrorHandler.Core.csproj", "{D196DE24-F1FA-4565-AA70-486D3DB60D5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D196DE24-F1FA-4565-AA70-486D3DB60D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D196DE24-F1FA-4565-AA70-486D3DB60D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D196DE24-F1FA-4565-AA70-486D3DB60D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D196DE24-F1FA-4565-AA70-486D3DB60D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

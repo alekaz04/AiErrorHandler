@@ -11,6 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DF409B78-648
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiErrorHandler.Core", "src\AiErrorHandler.Core\AiErrorHandler.Core.csproj", "{D94EAC50-9615-483F-8FFF-7AD7EF40C372}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiErrorHandler.Models", "src\AiErrorHandler.Models\AiErrorHandler.Models.csproj", "{96A501CC-F086-43F6-BE5F-7CFB4C3A8200}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{56F755C8-7740-4AC8-A422-E751C058E10D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiErrorHandler.Tests", "tests\AiErrorHandler.Tests\AiErrorHandler.Tests.csproj", "{1ABE2656-7D9C-445C-BA32-5C7DDF9589DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +27,18 @@ Global
 		{D94EAC50-9615-483F-8FFF-7AD7EF40C372}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D94EAC50-9615-483F-8FFF-7AD7EF40C372}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D94EAC50-9615-483F-8FFF-7AD7EF40C372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A501CC-F086-43F6-BE5F-7CFB4C3A8200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A501CC-F086-43F6-BE5F-7CFB4C3A8200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A501CC-F086-43F6-BE5F-7CFB4C3A8200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A501CC-F086-43F6-BE5F-7CFB4C3A8200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ABE2656-7D9C-445C-BA32-5C7DDF9589DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ABE2656-7D9C-445C-BA32-5C7DDF9589DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ABE2656-7D9C-445C-BA32-5C7DDF9589DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ABE2656-7D9C-445C-BA32-5C7DDF9589DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D94EAC50-9615-483F-8FFF-7AD7EF40C372} = {DF409B78-648D-4124-A1B2-8E65541F15DA}
+		{96A501CC-F086-43F6-BE5F-7CFB4C3A8200} = {DF409B78-648D-4124-A1B2-8E65541F15DA}
+		{1ABE2656-7D9C-445C-BA32-5C7DDF9589DC} = {56F755C8-7740-4AC8-A422-E751C058E10D}
 	EndGlobalSection
 EndGlobal

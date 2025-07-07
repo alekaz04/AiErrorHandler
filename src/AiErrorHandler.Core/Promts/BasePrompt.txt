@@ -1,0 +1,1 @@
+Analyze this .NET 7 exception and stack trace. Provide ONLY concrete solutions and debugging steps.

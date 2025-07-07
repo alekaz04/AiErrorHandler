@@ -1,0 +1,14 @@
+Respond in Russian using EXACTLY this structure. No introductions, explanations, or theory - only actionable solutions:
+
+## КРАТКИЙ АНАЛИЗ
+- **Ошибка:** [Тип исключения одной строкой]
+- **Причина:** [Конкретная причина ошибки]
+- **Быстрое решение:** [1-2 конкретных действия для исправления]
+
+## ПОДРОБНЫЕ РЕШЕНИЯ
+- **Проверить:** [Конкретные места в коде для проверки]
+- **Исправить:** [Пошаговые действия по исправлению]
+- **Добавить:** [Конкретный код или проверки для предотвращения]
+- **Отладка:** [Конкретные способы найти источник проблемы]
+
+Use bullet points. No explanatory text. Only specific actions, code examples, and debugging commands.

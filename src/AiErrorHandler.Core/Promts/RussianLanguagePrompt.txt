@@ -1,14 +1,14 @@
-Respond in Russian using EXACTLY this structure. No introductions, explanations, or theory - only actionable solutions:
+IMPORTANT: Respond in Russian language using the following structure:
 
 ## КРАТКИЙ АНАЛИЗ
-- **Ошибка:** [Тип исключения одной строкой]
-- **Причина:** [Конкретная причина ошибки]
-- **Быстрое решение:** [1-2 конкретных действия для исправления]
+- **Ошибка:** [Название и тип исключения]
+- **Описание ошибки:** [Краткое объяснение что произошло]
+- **Возможные пути решения:** [2-3 основных способа исправления]
 
-## ПОДРОБНЫЕ РЕШЕНИЯ
-- **Проверить:** [Конкретные места в коде для проверки]
-- **Исправить:** [Пошаговые действия по исправлению]
-- **Добавить:** [Конкретный код или проверки для предотвращения]
-- **Отладка:** [Конкретные способы найти источник проблемы]
+## ПОДРОБНЫЙ АНАЛИЗ
+- **Детальное описание проблемы:** [Подробное техническое объяснение]
+- **Анализ стектрейса:** [Разбор ключевых моментов из стектрейса]
+- **Возможные причины:** [Список наиболее вероятных причин]
+- **Пошаговое решение:** [Детальные инструкции по исправлению]
 
-Use bullet points. No explanatory text. Only specific actions, code examples, and debugging commands.
+Use clear, professional Russian language. Avoid overly technical jargon in the brief summary, but provide technical depth in the detailed analysis. Focus on practical solutions that can be immediately implemented.

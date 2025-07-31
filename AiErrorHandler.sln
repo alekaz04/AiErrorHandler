@@ -9,17 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DF409B78-648D-4124-A1B2-8E65541F15DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiErrorHandler.Core", "src\AiErrorHandler.Core\AiErrorHandler.Core.csproj", "{D94EAC50-9615-483F-8FFF-7AD7EF40C372}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiErrorHandler.Models", "src\AiErrorHandler.Models\AiErrorHandler.Models.csproj", "{96A501CC-F086-43F6-BE5F-7CFB4C3A8200}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{E74306CD-488D-46E7-874B-E4816464F502}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiErrorHandler.ConsoleOutput", "examples\AiErrorHandler.ConsoleOutput\AiErrorHandler.ConsoleOutput.csproj", "{F0B95E84-A98A-4E1A-92A9-312E87E70B9A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiErrorHandler.AspNetCore", "src\AiErrorHandler.AspNetCore\AiErrorHandler.AspNetCore.csproj", "{6C3C56C5-C199-4C9D-8119-443D9DA49074}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiErrorHandler.WebApi", "examples\AiErrorHandler.WebApi\AiErrorHandler.WebApi.csproj", "{326C4452-DCA6-41C0-9809-88E9BAB7760B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiErrorHandler", "AiErrorHandler\AiErrorHandler.csproj", "{6F20F014-6FFF-4F21-9622-9EA20CB46013}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,32 +21,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D94EAC50-9615-483F-8FFF-7AD7EF40C372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D94EAC50-9615-483F-8FFF-7AD7EF40C372}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D94EAC50-9615-483F-8FFF-7AD7EF40C372}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D94EAC50-9615-483F-8FFF-7AD7EF40C372}.Release|Any CPU.Build.0 = Release|Any CPU
-		{96A501CC-F086-43F6-BE5F-7CFB4C3A8200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96A501CC-F086-43F6-BE5F-7CFB4C3A8200}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96A501CC-F086-43F6-BE5F-7CFB4C3A8200}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96A501CC-F086-43F6-BE5F-7CFB4C3A8200}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F0B95E84-A98A-4E1A-92A9-312E87E70B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F0B95E84-A98A-4E1A-92A9-312E87E70B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F0B95E84-A98A-4E1A-92A9-312E87E70B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F0B95E84-A98A-4E1A-92A9-312E87E70B9A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6C3C56C5-C199-4C9D-8119-443D9DA49074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C3C56C5-C199-4C9D-8119-443D9DA49074}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6C3C56C5-C199-4C9D-8119-443D9DA49074}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C3C56C5-C199-4C9D-8119-443D9DA49074}.Release|Any CPU.Build.0 = Release|Any CPU
 		{326C4452-DCA6-41C0-9809-88E9BAB7760B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{326C4452-DCA6-41C0-9809-88E9BAB7760B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{326C4452-DCA6-41C0-9809-88E9BAB7760B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{326C4452-DCA6-41C0-9809-88E9BAB7760B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F20F014-6FFF-4F21-9622-9EA20CB46013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F20F014-6FFF-4F21-9622-9EA20CB46013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F20F014-6FFF-4F21-9622-9EA20CB46013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F20F014-6FFF-4F21-9622-9EA20CB46013}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{D94EAC50-9615-483F-8FFF-7AD7EF40C372} = {DF409B78-648D-4124-A1B2-8E65541F15DA}
-		{96A501CC-F086-43F6-BE5F-7CFB4C3A8200} = {DF409B78-648D-4124-A1B2-8E65541F15DA}
-		{F0B95E84-A98A-4E1A-92A9-312E87E70B9A} = {E74306CD-488D-46E7-874B-E4816464F502}
-		{6C3C56C5-C199-4C9D-8119-443D9DA49074} = {DF409B78-648D-4124-A1B2-8E65541F15DA}
 		{326C4452-DCA6-41C0-9809-88E9BAB7760B} = {E74306CD-488D-46E7-874B-E4816464F502}
+		{6F20F014-6FFF-4F21-9622-9EA20CB46013} = {DF409B78-648D-4124-A1B2-8E65541F15DA}
 	EndGlobalSection
 EndGlobal

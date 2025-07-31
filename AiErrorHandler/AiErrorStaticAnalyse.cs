@@ -1,8 +1,10 @@
-using AiErrorHandler.Models;
+using AiErrorHandler.Domain;
+using AiErrorHandler.Exceptions;
+using Microsoft.Extensions.Options;
 
 namespace AiErrorHandler.Core;
 
-public static class AiErrorStaticAnalyse
+internal static class AiErrorStaticAnalyse
 {
     private static OpenAiClient? _openAiClient;
 
@@ -13,14 +15,14 @@ public static class AiErrorStaticAnalyse
             throw new AiErrorHandlerException("OpenAiClient is not initialized");
         }
 
-        string analyse = await _openAiClient.GetErrorDescription(ex);
+        /*string analyse = await _openAiClient.GetErrorDescription(ex);
         Console.WriteLine("-----------------------------------");
-        Console.WriteLine(analyse);
+        Console.WriteLine(analyse);*/
         Console.WriteLine("-----------------------------------");
     }
 
-    public static void InitializeGpt(ConfigureAiHandler options)
+    public static void InitializeGpt(AiAnalyzerOptions options)
     {
-        _openAiClient = new OpenAiClient(options.Model, options.Key);
+        _openAiClient = new OpenAiClient(Options.Create(options));
     }
 }

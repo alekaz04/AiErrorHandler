@@ -1,9 +1,9 @@
-namespace AiErrorHandler.Models;
+namespace AiErrorHandler.Domain;
 
 /// <summary>
 /// Результат запроса к ГНС
 /// </summary>
-public class RequestResult
+internal class RequestResult
 {
     /// <summary>
     /// Ответ

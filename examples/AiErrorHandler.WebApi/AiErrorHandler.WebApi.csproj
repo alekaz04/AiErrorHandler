@@ -12,7 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\AiErrorHandler.AspNetCore\AiErrorHandler.AspNetCore.csproj" />
+      <ProjectReference Include="..\..\AiErrorHandler\AiErrorHandler.csproj" />
     </ItemGroup>
 
 </Project>

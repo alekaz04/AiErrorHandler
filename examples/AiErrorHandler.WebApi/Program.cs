@@ -1,4 +1,5 @@
 using AiErrorHandler.AspNetCore;
+using AiErrorHandler.AspNetCore.Extensions;
 using AiErrorHandler.Models;
 
 namespace AiErrorHandler.WebApi;
@@ -16,7 +17,13 @@ public static class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
-        builder.Services.AddAiErrorHandler();
+        builder.Services.AddAiErrorHandler(configure =>
+        {
+            configure.Model = "gpt-4o-2024-05-13";
+            configure.Key = "";
+            configure.IsWriteToLogger = true;
+            configure.ProcessInBackground = true;
+        });
 
         var app = builder.Build();
 
@@ -31,11 +38,7 @@ public static class Program
 
         app.UseAuthorization();
 
-        app.UseAiErrorHandlerMiddleware(new ConfigureAiHandler()
-        {
-            Key = "sk-proj-",
-            Model = "gpt-4o"
-        });
+        app.UseAiErrorHandlerMiddleware();
 
 
         app.MapControllers();
